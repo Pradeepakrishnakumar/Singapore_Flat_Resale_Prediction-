@@ -3,7 +3,6 @@ joblib
 scikit-learn
 streamlit
 pandas 
-datetime
 pickle
 numpy 
 streamlit-option-menu
