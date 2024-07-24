@@ -1,14 +1,14 @@
 
 joblib
 scikit-learn
-import streamlit as st
+import streamlit
 import webbrowser
-import pandas as pd
+import pandas 
 from PIL import Image
-import plotly.express as px
+import plotly.express 
 from streamlit_option_menu import option_menu
 from datetime import datetime
 import pickle
-import numpy as np
+import numpy 
 from datetime import datetime
 import pickle
