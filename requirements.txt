@@ -6,4 +6,5 @@ pandas
 datetime
 pickle
 numpy 
+streamlit-option-menu
 
