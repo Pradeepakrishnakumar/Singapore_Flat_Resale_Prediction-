@@ -4,3 +4,13 @@ numpy
 streamlit-option-menu
 joblib
 scikit-learn
+import streamlit as st
+import webbrowser
+import pandas as pd
+#import streamlit_pandas as sp
+from PIL import Image
+import plotly.express as px
+from streamlit_option_menu import option_menu
+import numpy as np
+from datetime import datetime
+import pickle
