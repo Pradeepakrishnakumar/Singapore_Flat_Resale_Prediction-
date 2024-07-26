@@ -145,7 +145,7 @@ if selected == "Get Prediction":
             st.markdown('<br>', unsafe_allow_html=True)
 
             button=st.form_submit_button('PREDICT',use_container_width=True)
-   if button:
+    if button:
         with st.spinner("Predicting..."):
 
             #check whether user fill all required fields
