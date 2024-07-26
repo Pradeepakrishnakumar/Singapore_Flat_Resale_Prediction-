@@ -145,7 +145,7 @@ if selected == "Get Prediction":
             st.markdown('<br>', unsafe_allow_html=True)
 
             button=st.form_submit_button('PREDICT',use_container_width=True)
-if button:
+   if button:
         with st.spinner("Predicting..."):
 
             #check whether user fill all required fields
@@ -171,7 +171,7 @@ if button:
                 price_per_sqm_log=np.log(price_per_sqm)
 
                 #opened pickle model and predict the resale price with user data
-                with open(r'C:\Users\Prem\OneDrive\Desktop\Guvi\streamlit\Decision_tree.pkl','rb') as files:
+                with open('Decision_tree.pkl', 'rb') as files:
                     model=pickle.load(files)
                 
                 user_data=np.array([[ town, flat_type, block, flat_model, lease_commence_date, year,month, storey_start,
